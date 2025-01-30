@@ -1,4 +1,3 @@
-
 ### **📜 README.md**
 
 # 🌍 Ling CLI - Quick Translations from Ling.pl
@@ -29,21 +28,21 @@ pip install -r requirements.txt
 
 ### **3️⃣ Make the Script Executable**
 ```bash
-chmod +x lang.py
+chmod +x ling.py
 ```
 
 ### **4️⃣ (Optional) Add to PATH**
 To run the script from **anywhere**:
 ```bash
-mv lang.py /usr/local/bin/lang
+mv ling.py /usr/local/bin/ling
 ```
 Now, you can simply type:
 ```bash
-lang książka
+ling książka
 ```
 instead of:
 ```bash
-python lang.py książka
+python ling.py książka
 ```
 
 ---
@@ -51,7 +50,7 @@ python lang.py książka
 ## **🚀 Usage**
 ### **Polish → English (Default)**
 ```bash
-lang książka
+ling książka
 ```
 **Example Output:**
 ```
@@ -76,7 +75,7 @@ lang książka
 
 ### **English → Polish (`-a` flag)**
 ```bash
-lang book -a
+ling book -a
 ```
 **Example Output:**
 ```
