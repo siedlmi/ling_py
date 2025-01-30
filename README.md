@@ -1,6 +1,6 @@
 
 ### **📜 README.md**
-```markdown
+
 # 🌍 Ling CLI - Quick Translations from Ling.pl
 
 A **command-line tool** that fetches translations from **[Ling.pl](https://ling.pl/)**.
